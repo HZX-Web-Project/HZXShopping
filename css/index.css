@@ -105,6 +105,7 @@
 	height: 163px;
 	margin-top: 10px;
 }
+
 .recom_hd {
 	float: left;
 	width: 207px;
@@ -113,17 +114,21 @@
 	text-align: center;
 	line-height: 163px;
 }
+
 .recom_dd {
 	float: left;
 }
+
 .recom_dd ul li {
 	position: relative;
 	float: left;
 }
+
 .recom_dd ul li img {
 	width: 248px;
 	height: 163px;
 }
+
 .recom_dd ul li:nth-child(-n + 3)::after {
 	content: '';
 	position: absolute;
@@ -132,5 +137,79 @@
 	width: 1px;
 	height: 145px;
 	background-color: #ddd;
-	
+
+}
+
+/* 新品上架 */
+.newgoods {
+	height: 315px;
+}
+
+.newgoods_hd {
+	margin-top: 28px;
+	height: 30px;
+}
+
+.newgoods_hd h2 {
+	float: left;
+	line-height: 28px;
+	color: #333;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.newgoods_hd .change {
+	float: right;
+	line-height: 28px;
+}
+
+.newgoods .change a {
+	color: #04a9ea;
+	font-size: 12px;
+}
+
+.newgoods .change a:hover {
+	text-decoration: underline;
+}
+
+.newgoods_bd {
+	height: 252px;
+	border: 1px solid #e4e4e4;
+}
+
+.newgoods_bd ul li {
+	position: relative;
+	float: left;
+	width: 193px;
+	height: 250px;
+}
+
+.newgoods_bd ul li::after {
+	content: '';
+	position: absolute;
+	top: 163px;
+	right: 0;
+	width: 1px;
+	height: 66px;
+	background-color: #CCCCCC;
+}
+
+.newgoods_bd ul li a {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.newgoods_bd ul li h6 {
+	margin: 10px 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.newgoods_bd ul li h2 {
+	margin: 20px 40px;
+	color: #e71638;
+	font-size: 20px;
+	font-weight: 700;
 }
