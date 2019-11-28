@@ -16,3 +16,18 @@ header .logo {
 	border: 1px solid #ccc;
 	margin-top: 20px;
 }
+.registerarea h3 {
+	height: 42px;
+	padding: 0 10px;
+	line-height: 42px;
+	border-bottom: 1px solid #ccc;
+	background: #ececec;
+	font-size: 18px;
+}
+.registerarea .login {
+	float: right;
+	font-size: 14px;
+}
+.registerarea .login a {
+	color: #C81623;
+}
